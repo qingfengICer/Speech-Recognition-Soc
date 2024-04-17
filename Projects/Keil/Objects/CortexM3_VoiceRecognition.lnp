@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+".\objects\debug.o"
+".\objects\delay.o"
+".\objects\main.o"
+".\objects\asio.o"
+".\objects\nvic.o"
+".\objects\uart.o"
+".\objects\pdm2pcm.o"
+".\objects\cnasic_soc.o"
+".\objects\functiontest.o"
+".\objects\voicerecognition.o"
+".\objects\voicetemplateacquisition.o"
+".\objects\voicetemplateload.o"
+".\objects\fft.o"
+".\objects\voicepreprocessing.o"
+".\objects\mfcc.o"
+".\objects\dtw.o"
+--library_type=microlib --strict --scatter ".\Objects\CortexM3_VoiceRecognition.sct"
+--entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\CortexM3_VoiceRecognition.map" -o .\Objects\CortexM3_VoiceRecognition.axf

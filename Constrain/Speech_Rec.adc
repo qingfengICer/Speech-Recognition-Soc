@@ -1,0 +1,16 @@
+set_pin_assignment	{ CLK }	{ LOCATION = N18; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ RESETn }	{ LOCATION = K4; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+set_pin_assignment	{ RXD }	{ LOCATION = M16; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ TCK }	{ LOCATION = F15; }
+set_pin_assignment	{ TMS }	{ LOCATION = A13; }
+set_pin_assignment	{ TXD }	{ LOCATION = R22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+
+set_pin_assignment	{ VCC }	{ LOCATION = B20;  }
+set_pin_assignment	{ GND }	{ LOCATION = D21;  }
+set_pin_assignment	{ SEL_MIC }	{ LOCATION = B17;  }
+set_pin_assignment	{ CLK_MIC }	{ LOCATION = C19;  }
+set_pin_assignment	{ PDM_DATA } { LOCATION = G15; }
+
+
+

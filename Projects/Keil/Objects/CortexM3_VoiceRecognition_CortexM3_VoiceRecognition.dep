@@ -1,0 +1,208 @@
+Dependencies for Project 'CortexM3_VoiceRecognition', Target 'CortexM3_VoiceRecognition': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\..\Programs\App\debug.c)(0x6550E41C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\debug.o --omf_browse .\objects\debug.crf --depend .\objects\debug.d)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\Programs\App\inc\debug.h)(0x647EC956)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+I (..\..\Programs\App\inc\delay.h)(0x644D20BA)
+I (..\..\Programs\Chip\Hal_lib\inc\hal_lib.h)(0x6476AED4)
+I (..\..\Programs\Chip\Hal_lib\inc\uart.h)(0x644C9140)
+I (..\..\Programs\Chip\Hal_lib\inc\pdm2pcm.h)(0x6476C8E2)
+I (..\..\Programs\Board\inc\sdram.h)(0x6551D636)
+I (..\..\Programs\Function\Function.h)(0x656A240D)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\..\Programs\Algorithm\inc\fft.h)(0x64741934)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (..\..\Programs\Algorithm\inc\mfcc.h)(0x64733C08)
+I (..\..\Programs\Algorithm\inc\VoicePreprocessing.h)(0x64780E2E)
+I (..\..\Programs\Algorithm\inc\dtw.h)(0x64772968)
+I (..\..\Programs\Board\inc\asio.h)(0x646C1FC0)
+I (..\..\Programs\Board\inc\Keyboard.h)(0x64832FC6)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+F (..\..\Programs\App\delay.c)(0x6456158C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\..\Programs\App\inc\delay.h)(0x644D20BA)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+F (..\..\Programs\App\main.c)(0x656C9A15)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\..\Programs\Function\Function.h)(0x656A240D)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Hal_lib\inc\hal_lib.h)(0x6476AED4)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+I (..\..\Programs\Chip\Hal_lib\inc\uart.h)(0x644C9140)
+I (..\..\Programs\Chip\Hal_lib\inc\pdm2pcm.h)(0x6476C8E2)
+I (..\..\Programs\App\inc\debug.h)(0x647EC956)
+I (..\..\Programs\App\inc\delay.h)(0x644D20BA)
+I (..\..\Programs\Algorithm\inc\fft.h)(0x64741934)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (..\..\Programs\Algorithm\inc\mfcc.h)(0x64733C08)
+I (..\..\Programs\Board\inc\sdram.h)(0x6551D636)
+I (..\..\Programs\Algorithm\inc\VoicePreprocessing.h)(0x64780E2E)
+I (..\..\Programs\Algorithm\inc\dtw.h)(0x64772968)
+I (..\..\Programs\Board\inc\asio.h)(0x646C1FC0)
+I (..\..\Programs\Board\inc\Keyboard.h)(0x64832FC6)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+F (..\..\Programs\Board\asio.c)(0x6550E41C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\asio.o --omf_browse .\objects\asio.crf --depend .\objects\asio.d)
+I (..\..\Programs\Board\inc\asio.h)(0x646C1FC0)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\..\Programs\Board\inc\Keyboard.h)(0x64832FC6)()
+F (..\..\Programs\Chip\Hal_lib\nvic.c)(0x6449EFDE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+F (..\..\Programs\Chip\Hal_lib\uart.c)(0x644CBB38)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\..\Programs\Chip\Hal_lib\inc\uart.h)(0x644C9140)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+F (..\..\Programs\Chip\Hal_lib\pdm2pcm.c)(0x6550E41C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\pdm2pcm.o --omf_browse .\objects\pdm2pcm.crf --depend .\objects\pdm2pcm.d)
+I (..\..\Programs\Chip\Hal_lib\inc\pdm2pcm.h)(0x6476C8E2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\..\Programs\Chip\Startup\keil\cnasic_soc.s)(0x6483332E)(--cpu Cortex-M3 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 538" --pd "ARMCM3 SETA 1"--list .\listings\cnasic_soc.lst --xref -o .\objects\cnasic_soc.o --depend .\objects\cnasic_soc.d)
+F (..\..\Programs\Function\FunctionTest.c)(0x6550E41C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\functiontest.o --omf_browse .\objects\functiontest.crf --depend .\objects\functiontest.d)
+I (..\..\Programs\Function\Function.h)(0x656A240D)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Hal_lib\inc\hal_lib.h)(0x6476AED4)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+I (..\..\Programs\Chip\Hal_lib\inc\uart.h)(0x644C9140)
+I (..\..\Programs\Chip\Hal_lib\inc\pdm2pcm.h)(0x6476C8E2)
+I (..\..\Programs\App\inc\debug.h)(0x647EC956)
+I (..\..\Programs\App\inc\delay.h)(0x644D20BA)
+I (..\..\Programs\Algorithm\inc\fft.h)(0x64741934)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (..\..\Programs\Algorithm\inc\mfcc.h)(0x64733C08)
+I (..\..\Programs\Board\inc\sdram.h)(0x6551D636)
+I (..\..\Programs\Algorithm\inc\VoicePreprocessing.h)(0x64780E2E)
+I (..\..\Programs\Algorithm\inc\dtw.h)(0x64772968)
+I (..\..\Programs\Board\inc\asio.h)(0x646C1FC0)
+I (..\..\Programs\Board\inc\Keyboard.h)(0x64832FC6)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+F (..\..\Programs\Function\VoiceRecognition.c)(0x656A2F14)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\voicerecognition.o --omf_browse .\objects\voicerecognition.crf --depend .\objects\voicerecognition.d)
+I (..\..\Programs\Function\Function.h)(0x656A240D)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Hal_lib\inc\hal_lib.h)(0x6476AED4)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+I (..\..\Programs\Chip\Hal_lib\inc\uart.h)(0x644C9140)
+I (..\..\Programs\Chip\Hal_lib\inc\pdm2pcm.h)(0x6476C8E2)
+I (..\..\Programs\App\inc\debug.h)(0x647EC956)
+I (..\..\Programs\App\inc\delay.h)(0x644D20BA)
+I (..\..\Programs\Algorithm\inc\fft.h)(0x64741934)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (..\..\Programs\Algorithm\inc\mfcc.h)(0x64733C08)
+I (..\..\Programs\Board\inc\sdram.h)(0x6551D636)
+I (..\..\Programs\Algorithm\inc\VoicePreprocessing.h)(0x64780E2E)
+I (..\..\Programs\Algorithm\inc\dtw.h)(0x64772968)
+I (..\..\Programs\Board\inc\asio.h)(0x646C1FC0)
+I (..\..\Programs\Board\inc\Keyboard.h)(0x64832FC6)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+F (..\..\Programs\Function\VoiceTemplateAcquisition.c)(0x6550E41C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\voicetemplateacquisition.o --omf_browse .\objects\voicetemplateacquisition.crf --depend .\objects\voicetemplateacquisition.d)
+I (..\..\Programs\Function\Function.h)(0x656A240D)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Hal_lib\inc\hal_lib.h)(0x6476AED4)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+I (..\..\Programs\Chip\Hal_lib\inc\uart.h)(0x644C9140)
+I (..\..\Programs\Chip\Hal_lib\inc\pdm2pcm.h)(0x6476C8E2)
+I (..\..\Programs\App\inc\debug.h)(0x647EC956)
+I (..\..\Programs\App\inc\delay.h)(0x644D20BA)
+I (..\..\Programs\Algorithm\inc\fft.h)(0x64741934)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (..\..\Programs\Algorithm\inc\mfcc.h)(0x64733C08)
+I (..\..\Programs\Board\inc\sdram.h)(0x6551D636)
+I (..\..\Programs\Algorithm\inc\VoicePreprocessing.h)(0x64780E2E)
+I (..\..\Programs\Algorithm\inc\dtw.h)(0x64772968)
+I (..\..\Programs\Board\inc\asio.h)(0x646C1FC0)
+I (..\..\Programs\Board\inc\Keyboard.h)(0x64832FC6)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+F (..\..\Programs\Function\TemplateSet.h)(0x656A2D9E)()
+F (..\..\Programs\Function\VoiceTemplateLoad.c)(0x6550E41C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\voicetemplateload.o --omf_browse .\objects\voicetemplateload.crf --depend .\objects\voicetemplateload.d)
+I (..\..\Programs\Function\Function.h)(0x656A240D)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Hal_lib\inc\hal_lib.h)(0x6476AED4)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+I (..\..\Programs\Chip\Hal_lib\inc\uart.h)(0x644C9140)
+I (..\..\Programs\Chip\Hal_lib\inc\pdm2pcm.h)(0x6476C8E2)
+I (..\..\Programs\App\inc\debug.h)(0x647EC956)
+I (..\..\Programs\App\inc\delay.h)(0x644D20BA)
+I (..\..\Programs\Algorithm\inc\fft.h)(0x64741934)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (..\..\Programs\Algorithm\inc\mfcc.h)(0x64733C08)
+I (..\..\Programs\Board\inc\sdram.h)(0x6551D636)
+I (..\..\Programs\Algorithm\inc\VoicePreprocessing.h)(0x64780E2E)
+I (..\..\Programs\Algorithm\inc\dtw.h)(0x64772968)
+I (..\..\Programs\Board\inc\asio.h)(0x646C1FC0)
+I (..\..\Programs\Board\inc\Keyboard.h)(0x64832FC6)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\..\Programs\Function\TemplateSet.h)(0x656A2D9E)
+F (..\..\Programs\Algorithm\fft.c)(0x6475FEB2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\fft.o --omf_browse .\objects\fft.crf --depend .\objects\fft.d)
+I (..\..\Programs\Algorithm\inc\fft.h)(0x64741934)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\..\Programs\Algorithm\VoicePreprocessing.c)(0x6550E41C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\voicepreprocessing.o --omf_browse .\objects\voicepreprocessing.crf --depend .\objects\voicepreprocessing.d)
+I (..\..\Programs\Algorithm\inc\VoicePreprocessing.h)(0x64780E2E)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\Programs\Board\inc\sdram.h)(0x6551D636)
+I (..\..\Programs\Algorithm\inc\fft.h)(0x64741934)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+F (..\..\Programs\Algorithm\mfcc.c)(0x6550E418)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\mfcc.o --omf_browse .\objects\mfcc.crf --depend .\objects\mfcc.d)
+I (..\..\Programs\Algorithm\inc\mfcc.h)(0x64733C08)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (..\..\Programs\Function\Function.h)(0x656A240D)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\..\Programs\Chip\Hal_lib\inc\hal_lib.h)(0x6476AED4)
+I (..\..\Programs\Chip\Startup\inc\soc.h)(0x654F7D46)
+I (..\..\Programs\Chip\CMSIS\core_cm3.h)(0x6550E41C)
+I (..\..\Programs\Chip\Hal_lib\inc\nvic.h)(0x64716E5C)
+I (..\..\Programs\Chip\Hal_lib\inc\uart.h)(0x644C9140)
+I (..\..\Programs\Chip\Hal_lib\inc\pdm2pcm.h)(0x6476C8E2)
+I (..\..\Programs\App\inc\debug.h)(0x647EC956)
+I (..\..\Programs\App\inc\delay.h)(0x644D20BA)
+I (..\..\Programs\Algorithm\inc\fft.h)(0x64741934)
+I (..\..\Programs\Board\inc\sdram.h)(0x6551D636)
+I (..\..\Programs\Algorithm\inc\VoicePreprocessing.h)(0x64780E2E)
+I (..\..\Programs\Algorithm\inc\dtw.h)(0x64772968)
+I (..\..\Programs\Board\inc\asio.h)(0x646C1FC0)
+I (..\..\Programs\Board\inc\Keyboard.h)(0x64832FC6)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+F (..\..\Programs\Algorithm\dtw.c)(0x64789B8C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I ..\..\Programs\App\inc -I ..\..\Programs\Board\inc -I ..\..\Programs\Chip\CMSIS -I ..\..\Programs\Chip\Hal_lib\inc -I ..\..\Programs\Chip\Startup\inc -I ..\..\Programs\Function -I ..\..\Programs\Algorithm\inc-ID:\tools\keil_v5.38\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -DARMCM3-o .\objects\dtw.o --omf_browse .\objects\dtw.crf --depend .\objects\dtw.d)
+I (..\..\Programs\Algorithm\inc\dtw.h)(0x64772968)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (D:\tools\keil_v5.38\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
